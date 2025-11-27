@@ -6,6 +6,7 @@ from diffusers import KandinskyV22Pipeline, KandinskyV22PriorPipeline
 from transformers import MarianTokenizer, MarianMTModel
 from flask_cors import CORS
 
+# app init
 app = Flask(__name__)
 CORS(app)
 
