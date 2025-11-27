@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PyCharmMiscProject.iml" filepath="$PROJECT_DIR$/PyCharmMiscProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CreativeAssistant.iml" filepath="$PROJECT_DIR$/.idea/CreativeAssistant.iml" />
     </modules>
   </component>
 </project>
