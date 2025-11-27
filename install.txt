@@ -1,0 +1,2 @@
+python -m pip install -U xformers torch torchvision --index-url https://download.pytorch.org/whl/cu126
+python -m pip install diffusers transformers accelerate safetensors flask hf_xet
