@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de310a35-77ad-4168-8fb2-ff25776515ea" name="Changes" comment="update project info">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="de310a35-77ad-4168-8fb2-ff25776515ea" name="Changes" comment="added full local files of the models;&#10;added translate-model (OPUS MT);&#10;changed final image model on Kandinsky 2.2;&#10;removed trash and temp files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/anythingV3_fp16.safetensors" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script_anything.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764234262092</updated>
       <workItem from="1764234263139" duration="4280000" />
-      <workItem from="1764239050228" duration="12522000" />
+      <workItem from="1764239050228" duration="13328000" />
     </task>
     <task id="LOCAL-00001" summary="update project info">
       <option name="closed" value="true" />
@@ -114,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764234393134</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added full local files of the models;&#10;added translate-model (OPUS MT);&#10;changed final image model on Kandinsky 2.2;&#10;removed trash and temp files">
+      <option name="closed" value="true" />
+      <created>1764253483678</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764253483678</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update project info" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project info" />
+    <MESSAGE value="added full local files of the models;&#10;added translate-model (OPUS MT);&#10;changed final image model on Kandinsky 2.2;&#10;removed trash and temp files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added full local files of the models;&#10;added translate-model (OPUS MT);&#10;changed final image model on Kandinsky 2.2;&#10;removed trash and temp files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CreativeAssistant$CreativeAssistant.coverage" NAME="CreativeAssistant Coverage Results" MODIFIED="1764253142380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
