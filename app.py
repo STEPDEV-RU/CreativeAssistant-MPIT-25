@@ -1,5 +1,6 @@
 import io
 import os
+import re
 from flask import Flask, request, send_file, jsonify
 import torch
 from diffusers import KandinskyV22Pipeline, KandinskyV22PriorPipeline
@@ -45,6 +46,10 @@ def translate_ru_to_en(text: str):
     translated = translator_model.generate(**tokens)
     return translator_tokenizer.batch_decode(translated, skip_special_tokens=True)[0]
 
+# проверка на русский промпт
+def is_russian(text: str):
+    return bool(re.search("[А-Яа-яЁё]", text))
+
 # ============================================
 #   API ENDPOINT
 # ============================================
@@ -56,9 +61,21 @@ def generate_image():
     if not data or "prompt" not in data:
         return jsonify({"error": "Missing 'prompt'"}), 400
 
-    prompt = data["prompt"] # todo сделать проверку, вдруг это инглиш, тогда переводить не следует
-    prompt_en = translate_ru_to_en(prompt)
+    prompt = data["prompt"]
+
+    if is_russian(prompt):
+        prompt_en = translate_ru_to_en(prompt)
+        print(f"Detected RU -> EN: {prompt} -> {prompt_en}")
+    else:
+        prompt_en = prompt
+        print(f"Detected EN: {prompt}")
+
     negative_prompt = data.get("negative_prompt", "low quality, bad quality")
+
+    if is_russian(negative_prompt):
+        print(f"Detected RU negative prompt: {negative_prompt}")
+        negative_prompt = translate_ru_to_en(negative_prompt)
+        print(f"negative prompt RU -> EN: {negative_prompt}")
 
     print(f"Generating image from prompt: {prompt} (EN: {prompt_en})")
 
