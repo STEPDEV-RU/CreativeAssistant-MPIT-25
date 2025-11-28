@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de310a35-77ad-4168-8fb2-ff25776515ea" name="Changes" comment="update workspace.xml">
+    <list default="true" id="de310a35-77ad-4168-8fb2-ff25776515ea" name="Changes" comment="updated app.py; added russian text check">
+      <change afterPath="$PROJECT_DIR$/nsfw.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
@@ -102,7 +103,7 @@
       <workItem from="1764239050228" duration="13328000" />
       <workItem from="1764255792525" duration="241000" />
       <workItem from="1764256071022" duration="52000" />
-      <workItem from="1764284575241" duration="2418000" />
+      <workItem from="1764284575241" duration="5912000" />
     </task>
     <task id="LOCAL-00001" summary="update project info">
       <option name="closed" value="true" />
@@ -128,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764255482835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated app.py; added russian text check">
+      <option name="closed" value="true" />
+      <created>1764287419134</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764287419134</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,9 +147,10 @@
     <MESSAGE value="update project info" />
     <MESSAGE value="added full local files of the models;&#10;added translate-model (OPUS MT);&#10;changed final image model on Kandinsky 2.2;&#10;removed trash and temp files" />
     <MESSAGE value="update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
+    <MESSAGE value="updated app.py; added russian text check" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated app.py; added russian text check" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CreativeAssistant$CreativeAssistant.coverage" NAME="CreativeAssistant Coverage Results" MODIFIED="1764287139070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CreativeAssistant$CreativeAssistant.coverage" NAME="CreativeAssistant Coverage Results" MODIFIED="1764292538487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
